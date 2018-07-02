@@ -3,13 +3,13 @@ defmodule Story2 do
 
   def engage() do
     IO.puts "
-    ****************
-    *   Deep Blue  *
-    ****************
+    ****************************************************************
+    *                          Deep Blue                           *
+    ****************************************************************
 
     "
     IO.puts "\n"
-    player_name = IO.gets "What is your name?"
+    player_name = IO.gets "What is your name? "
     IO.puts "\n"
     IO.puts "\n"
     Process.sleep(1000)
