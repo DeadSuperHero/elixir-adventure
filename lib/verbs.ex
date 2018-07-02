@@ -43,7 +43,7 @@ defmodule Verbs do
   end
 
   def restart do
-    Adventure.random_game()
+    Story.random_game()
   end
 
 end

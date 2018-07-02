@@ -15,10 +15,19 @@ defmodule Adventure do
 
   import Story
 
+  def startValue() do
+    startValue = 0
+  end
+
   def start() do
-    Process.sleep(1000)
-    IO.puts "Okay, we're turning on the machine now!"
-    random_game()
+    if startValue == 0 do
+      Process.sleep(1000)
+      IO.puts "Okay, we're turning on the machine now!"
+      startValue + 1
+      Story.random_game()
+    else
+      IO.puts "You're already running a game!"
+    end
   end
 
 end

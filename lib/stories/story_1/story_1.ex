@@ -2,7 +2,7 @@ defmodule Story1 do
 
   def engage() do
     IO.puts "
-    ***************
+    ****************
     * Forest Green *
     ****************
 
@@ -10,6 +10,8 @@ defmodule Story1 do
     IO.puts "\n"
     player_name = IO.gets "What is your name? "
     Process.sleep(1000)
+    IO.puts "\n"
+    IO.puts "\n"
     IO.puts "#{String.trim(player_name)}, you are hiking on a big mountain."
     IO.puts "To the North is the summit. To the East is your camp."
     IO.puts "\n"

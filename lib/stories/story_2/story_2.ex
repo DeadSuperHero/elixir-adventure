@@ -3,13 +3,15 @@ defmodule Story2 do
 
   def engage() do
     IO.puts "
-    ***************
+    ****************
     *   Deep Blue  *
     ****************
 
     "
     IO.puts "\n"
-    player_name = IO.gets "What is your name? "
+    player_name = IO.gets "What is your name?"
+    IO.puts "\n"
+    IO.puts "\n"
     Process.sleep(1000)
     Process.sleep(1000)
     IO.puts "#{String.trim(player_name)}, you are swimming in the ocean."
