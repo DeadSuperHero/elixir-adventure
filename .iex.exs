@@ -9,6 +9,7 @@ IEx.configure(
   ] |> IO.chardata_to_string,
 )
 Application.put_env(:elixir, :ansi_enabled, true)
+IEx.dont_display_result
 
 # Import the adventure module
 import Adventure

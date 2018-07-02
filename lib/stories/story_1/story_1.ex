@@ -1,6 +1,7 @@
 defmodule Story1 do
 
   def engage() do
+    IO.write [IO.ANSI.home, IO.ANSI.clear]; IEx.dont_display_result
     IO.puts "
     ****************************************************************
     *                       Forest Green                           *

@@ -2,7 +2,8 @@ defmodule Story3 do
   require Verbs
 
   def engage() do
-    IO.puts "
+    IO.write [IO.ANSI.home, IO.ANSI.clear]; IEx.dont_display_result
+    IO.write "
     ****************
     *   HOT MAGMA  *
     ****************

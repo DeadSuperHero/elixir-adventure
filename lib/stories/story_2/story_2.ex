@@ -2,6 +2,7 @@ defmodule Story2 do
   require Verbs
 
   def engage() do
+    IO.write [IO.ANSI.home, IO.ANSI.clear]; IEx.dont_display_result
     IO.puts "
     ****************************************************************
     *                          Deep Blue                           *

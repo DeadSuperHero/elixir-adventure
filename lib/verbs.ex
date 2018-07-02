@@ -15,23 +15,22 @@ defmodule Verbs do
   alias Adventure
   alias Adventure.Verbs
 
-
   def prompt() do
-    IO.puts "Type `help` if you ever need to list available actions."
+    IO.puts "Type `help` if you ever need to list available actions."; IEx.dont_display_result
   end
 
 
   def help() do
     IO.puts "Your available actions are look, grab, and talk"
-    IO.puts "You can also restart."
+    IO.puts "You can also restart." ; IEx.dont_display_result
   end
 
   def look(object \\ "nothing") do
-    IO.puts "You look at the #{object}"
+    IO.puts "You look at the #{object}" ; IEx.dont_display_result
   end
 
   def walk(location \\ "nowhere") do
-    IO.puts "You walk #{location}."
+    IO.puts "You walk #{location}." ; IEx.dont_display_result
   end
 
   def grab(object \\ "nothing") do
@@ -39,11 +38,11 @@ defmodule Verbs do
   end
 
   def talk(person \\ "nobody") do
-    IO.puts "#{person} does not want to talk to you."
+    IO.puts "#{person} does not want to talk to you." ; IEx.dont_display_result
   end
 
   def restart do
-    Story.random_game()
+    Story.random_game() ; IEx.dont_display_result
   end
 
 end
