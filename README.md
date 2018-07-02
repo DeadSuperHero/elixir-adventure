@@ -5,8 +5,10 @@ Presently, there are no graphics. The experience is pure text.
 
 
 ## Running Adventure
+First, navigate to the directory where you cloned this, and perform
+`mix deps.get`. This will fetch the required dependencies before you begin.
 
-You need to first start the interpreter. To do so, type `iex -S mix`; This
+Next, you'll need to start the interpreter. To do so, type `iex -S mix`; This
 will fire up the custom ADVENTURE parser.
 
 Typing `start` will begin a new adventure, putting the player in a random
