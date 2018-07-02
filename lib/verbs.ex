@@ -26,16 +26,20 @@ defmodule Verbs do
     IO.puts "You can also restart."
   end
 
-  def walk() do
-    IO.puts "You walk that way."
+  def look(object \\ "nothing") do
+    IO.puts "You look at the #{object}"
   end
 
-  def grab() do
-    "Nothing to grab here."
+  def walk(location \\ "nowhere") do
+    IO.puts "You walk #{location}."
   end
 
-  def talk() do
-    "No one to talk to."
+  def grab(object \\ "nothing") do
+    IO.puts "Nothing to grab here."
+  end
+
+  def talk(person \\ "nobody") do
+    IO.puts "#{person} does not want to talk to you."
   end
 
   def restart do
