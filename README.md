@@ -21,5 +21,8 @@ story will be completely different.
 
 ## Special Thanks
 
-I have to make one quick shout-out to [@SherSpock](https://github.com/SherSpock), who developed an Elixir port of
-Give Me Your Lunch Money. As someone new to Elixir, this is an interesting project to study as I come up against my own development challenges, and I'm sure I'll find inspiration into
+I have to make one quick shout-out to [@SherSpock](https://github.com/SherSpock), who developed [an Elixir port](https://github.com/SherSpock/GMYLM-Elixir) of
+[Give Me Your Lunch Money](http://www.adrift.co/game/1197).
+
+As someone new to Elixir, this is an interesting project to study as I come up against my own development challenges, and I'm sure I'll find inspiration into
+how this person approached things.
