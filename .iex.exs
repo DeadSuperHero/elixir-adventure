@@ -12,14 +12,15 @@ Application.put_env(:elixir, :ansi_enabled, true)
 IEx.dont_display_result
 
 # Import the adventure module
-import Adventure
 import Verbs
-
+import Adventure
 # Clear the screen
 clear()
 
+
 # Print something before the shell starts
 IO.puts "
+
      _       _                 _
     /_\   __| |_   _____ _ __ | |_ _   _ _ __ ___
    //_\\ / _` \ \ / / _ \ '_ \| __| | | | '__/ _ \
@@ -31,4 +32,6 @@ IO.puts "
 Process.sleep(1000)
 IO.puts "Welcome to Adventure, a proof-of-concept text parser adventure, created in Elixir."
 Process.sleep(1000)
+
+# Start Prompt
 IO.puts "Type `start` to begin the game."

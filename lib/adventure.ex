@@ -13,7 +13,7 @@ defmodule Adventure do
 
   """
 
-  import Story
+alias Story
 
   def running do
     IO.puts "You're already running a game!"
